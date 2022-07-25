@@ -1,0 +1,49 @@
+/*This is the main stylesheet for the Landing Page TOP Project */
+
+/* Joint styles */
+header,
+footer {
+    background-color: #1F2937;
+}
+
+/*top down */
+header {
+    width: auto;
+    height: 300px;
+}
+
+.headerLogoText{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.mainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9FAF8;
+}
+
+.secondaryText {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.buttonAndAction {
+    background-color: #3882F6;
+}
+
+.informationHeaderText {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quoteSection {
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+}
