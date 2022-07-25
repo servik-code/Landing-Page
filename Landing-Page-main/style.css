@@ -23,6 +23,7 @@ body {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 ul {
@@ -111,4 +112,33 @@ button {
     text-align: center;
     border-radius: 2px;
     color: white;
+}
+
+#mainBodySection {
+    display: flex;
+    flex-direction: column;
+}
+
+#mainSubsection1,
+#mainSubsection2,
+#mainSubsection3 {
+    display: flex;
+    justify-content: center;
+}
+
+#mainSubsection2 {
+    display: flex;
+    gap: 10px;
+}
+
+#mainSubsection2 img {
+    border: #3882F6 solid 2px;
+    height: 100px;
+    border-radius: 4px;
+    color: white;
+}
+
+#mainSubsection3 p {
+    color: black;
+    margin: 5px 10px;
 }
