@@ -6,12 +6,44 @@ footer {
     background-color: #1F2937;
 }
 
-/*top down */
+
+/*Elements */
 header {
     width: auto;
-    height: 300px;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    padding: 0 10% 5% 10%;
 }
 
+body {
+    margin: 0;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 10px;
+}
+
+p {
+    color: white;
+}
+
+button {
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+}
+/*classes */
 .headerLogoText{
     font-size: 24px;
     color: #F9FAF8;
@@ -21,6 +53,10 @@ header {
     font-size: 48px;
     font-weight: bolder;
     color: #f9FAF8;
+    margin-bottom: 0;
+}
+.mainText p {
+    margin-top: 0;
 }
 
 .secondaryText {
@@ -44,6 +80,35 @@ header {
 
 .quoteText {
     font-size: 36px;
-    font-style: light italic;
+    font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+}
+
+/* Id's */
+
+#headerTopSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerBottomSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#headerBottomSection section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#headerImage {
+    background-color: gray;
+    height: 200px;
+    width: 500px;
+    line-height: 180px;
+    text-align: center;
+    border-radius: 2px;
+    color: white;
 }
