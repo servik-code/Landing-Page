@@ -67,6 +67,27 @@ button {
 
 .buttonAndAction {
     background-color: #3882F6;
+    margin: 5% 20%;
+    border-radius: 4px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonAndAction a {
+    border: 2px solid white;
+    border-radius: 4px;
+    width: inherit;
+}
+
+.buttonAndAction button {
+    width: 100px;
+}
+
+.buttonAndAction section + section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .informationHeaderText {
@@ -100,6 +121,13 @@ button {
 #headerTopSection {
     display: flex;
     justify-content: space-between;
+}
+
+#headerButton {
+    background-color: #3882F6;
+    margin: 5% 20%;
+    border-radius: 4px;
+    color: white;
 }
 
 #headerBottomSection {
